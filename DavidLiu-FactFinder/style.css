@@ -1,0 +1,60 @@
+/*
+Fact 1 Colour theme: https://coolors.co/561d25-ce8147-ecdd7b-d3e298-cde7be
+Fact 2 Colour theme: https://coolors.co/643a71-8b5fbf-d183c9-e3879e-fc9cb4
+Fact 3 Colour theme: https://coolors.co/a9ae5b-aea798-877a90-585191-4f359b
+Fact 4 Colour theme: https://coolors.co/eff8e2-cecfc7-ada8b6-23022e-573280
+Fact 5 Colour theme (default): https://coolors.co/fcddbc-ef959d-77cdd1-69585f-a41623
+Default Colours with colours that don't change: https://coolors.co/fcddbc-f6b9ad-ef959d-77cdd1-69585f-a41623
+*/
+
+main {
+	border: 5px solid #69585F;
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-template-rows: 100px auto;
+	background-color: #F6B9AD;
+}
+
+#factDisplay {
+	border: 5px solid #A41623;
+	border-radius: 12px;
+	padding: 8px;
+	margin: 10px;
+	color: #000000;
+	background-color: #B8C9CC;
+}
+
+/* This is fine because we only have 1 form on the page */
+form {
+	border: 5px solid #A41623;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding: 10px;
+	background-color: #77CDD1;
+}
+
+img {
+	height: 300px;
+}
+
+body {
+	display: flex;
+	justify-content: center; /* centers body up and down */
+	align-items: center; /* centers body left and right */
+	background-color: #FCDDBC;
+}
+
+input {
+	border: 2px solid black;
+	border-radius: 15px;
+	color: black;
+	background-color: #F8CBC9;
+}
+input:hover /* Hover is a pseudoclass */{
+	background-color: #F5AF8E;
+}
+input:active {
+	background-color: #EF959D;
+}
